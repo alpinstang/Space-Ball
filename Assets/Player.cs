@@ -28,7 +28,6 @@ public class Player : MonoBehaviour
 
     private void ProcessTranslation()
     {
-        print("controls...");
         float xThrow, yThrow;
         xThrow = Input.GetAxis("Horizontal") * controlSpeed * Time.deltaTime; // get result of AD keys in X
         yThrow = Input.GetAxis("Vertical") * controlSpeed * Time.deltaTime; // get result of WS keys in Z
