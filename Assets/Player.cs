@@ -49,4 +49,9 @@ public class Player : MonoBehaviour
         print("Death");
         isControlEnabled = false;
     }
+
+    void OnShipHit() // called by string reference in OnCollisionHandler.cs
+    {
+        print("Ship Shot");
+    }
 }
