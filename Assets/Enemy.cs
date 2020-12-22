@@ -54,8 +54,9 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             print("hit player");
-            Destroy(collision.gameObject);
             Destroy(gameObject);
+            GameObject c = collision.gameObject;
+            print(c);
         }
     }
 }

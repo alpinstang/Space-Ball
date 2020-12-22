@@ -51,6 +51,6 @@ public class Player : MonoBehaviour
 
     void OnShipHit() // called by string reference in OnCollisionHandler.cs
     {
-        print("Ship Shot");
+        print("Ship hit");
     }
 }

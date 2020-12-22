@@ -171,12 +171,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -184,7 +188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -86
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -578,8 +582,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlSpeed: 75
   xRange: 50
-  yMin: -86
-  yMax: -70
+  yMin: -80
+  yMax: -65
 --- !u!4 &1889235061 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff,
