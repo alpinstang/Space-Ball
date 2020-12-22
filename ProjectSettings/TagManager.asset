@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - music
+  - Enemy
+  - Destructor
+  - Emitter
   layers:
   - Default
   - TransparentFX
